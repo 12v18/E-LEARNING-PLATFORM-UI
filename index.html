@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#progress">Progress</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="courses">
+            <h2>Course Listing</h2>
+            <ul id="course-list">
+                <li data-progress="0">Course 1</li>
+                <li data-progress="0">Course 2</li>
+                <li data-progress="0">Course 3</li>
+            </ul>
+        </section>
+        <section id="progress">
+            <h2>Progress Tracking</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress-bar" style="width: 0%;"></div>
+            </div>
+            <p id="progress-text">0% Complete</p>
+        </section>
+        <section id="video">
+            <h2>Course Video</h2>
+            <div class="video-container">
+                <iframe id="course-video" src="https://www.youtube.com/watch?v=3iLLBXGblqk&t=445s" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 E-Learning Platform. All rights reserved.</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
