@@ -21,4 +21,5 @@ Welcome to the E-Learning Platform! This project showcases a comprehensive e-lea
 - **JavaScript**: Interactive features, such as progress tracking and video integration.
 
 ### Output:
-<!-- Failed to upload "Output.mp4" -->
+<img width="940" alt="Image" src="https://github.com/user-attachments/assets/90557b6b-0af2-45d6-a867-e1c16216952a" />
+<img width="947" alt="Image" src="https://github.com/user-attachments/assets/3e188bbc-89a7-46d8-9da2-e1c50d7f2fca" />
